@@ -31,7 +31,7 @@ In the below diagram, you will see that AWS WAF is placed above the Elastic Load
 
 ## Prototype/Archictecture
 
-![ Architecture for how an ecommerce site can be hosted on EC2](https://github.com/Chriss50/AWS-re-Start-Capstone-Project/blob/main/Images/case%20study%20architecture.png "Architecture")
+![ Architecture for how an ecommerce site can be hosted on EC2](Images/case%20study%20architecture.png "Architecture")
 
 Because we need the website to have a domain associated with it there is an AWS service to handle that called Amazon Route 53, a highly available and scalable Domain Name System (DNS) web service. This will improve our application’s availability through registering the website’s domain and maintaining compliance. As an ecommerce website which will be receiving several requests from two continents it will need a service for protecting users’ requests made to Amazon Route 53 and Amazon CloudFront from being delayed through the denial of service. That’s where AWS Shield comes into play, AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection.
 
