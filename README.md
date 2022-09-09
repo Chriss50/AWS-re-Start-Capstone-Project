@@ -35,3 +35,7 @@ In the below diagram, you will see that AWS WAF is placed above the Elastic Load
 
 Because we need the website to have a domain associated with it there is an AWS service to handle that called [Amazon Route 53](https://aws.amazon.com/route53), a highly available and scalable Domain Name System (DNS) web service. This will improve our application’s availability through registering the website’s domain and maintaining compliance. As an ecommerce website which will be receiving several requests from two continents it will need a service for protecting users’ requests made to Amazon Route 53 and [Amazon CloudFront](https://aws.amazon.com/cloudfront) from being delayed through the denial of service. That’s where AWS Shield comes into play, [AWS Shield](https://aws.amazon.com/shield) is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection.
 
+
+With the help of these services and the other services we didn’t mention like [Amazon Macie](https://aws.amazon.com/macie), [Amazon Cloud Search](https://aws.amazon.com/cloudsearch), [Amazon Lex](https://aws.amazon.com/lex), and other many services we can’t cover in this article. All could help you create a well functioning reliable ecommerce website.
+
+
